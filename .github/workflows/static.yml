@@ -48,3 +48,4 @@ jobs:
         with:
           # Upload entire repository
           artifacts: './dist/angular-cafe/*'
+          token: ${{ secrets.TOKEN }}
